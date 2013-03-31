@@ -1,0 +1,394 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	padding: 30px;
+	text-align: center;
+	background-color: #fff;
+	color: #222;
+}
+
+body, p{
+	font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
+}
+body {
+	font-family: "ProximaNova", Helvetica, Arial, "Lucida Grande", Verdana, sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #000;
+}
+
+body {
+	text-align: center;
+	color: #222;
+}
+
+div {
+	display: block;
+}
+
+/* Navigation */
+
+div.navigation {
+	text-align: right;
+	padding: 10px;
+	margin: -20px 0px 20px 15px;
+}
+
+div.navigation ul li.day {
+	float: left;
+	padding-top: 4px;
+	color: #999;
+}
+
+div.navigation ul li{
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0 10px 0;
+	font-size: 12px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+div.navigation ul li a{
+	text-decoration: none;
+}
+
+div.navigation a:link, a:visited{
+	color: #369;
+}
+
+div.navigation a:hover{
+	color: #18afe0;
+}
+
+div.navigation ul li a.signin {
+	color: #18afe0;
+}
+
+div.navigation ul li a.signin:hover{
+	color: #369;
+}
+
+/*Container*/
+
+div.container {
+	margin: 0 auto 30px;
+	width: 820px;
+	padding: 0;
+}
+
+img{
+	display: inline-block;
+}
+
+/*Body - Index*/
+
+body.index div.box{
+	padding-left: 15px;
+	overflow: hidden;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+
+body.index div.box div.taglines{
+	width: 825px;
+	margin-left: -20px;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+}
+
+h1{
+	font-weight: 500;
+	font-style: normal;
+	font-size: 58px;
+	clear: both;
+	line-height: 1.0em;
+	margin-bottom: 20px;
+	letter-spacing: -2px;
+	color: #232323;
+
+}
+
+h5{
+	font-size: 20px;
+	font-weight: 500;
+	margin: 10px 0;
+}
+
+body.index a.box{
+	width: 160px;
+	height: 210px;
+	margin: 15px 20px 5px;
+	float: left;
+	border: 1px solid #e8e8e8;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #efefef;
+	text-decoration: none;
+	padding: 20px 10px 10px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+background: #f2f5f6; /* Old browsers */
+background: -moz-linear-gradient(top,  #f2f5f6 55%, #e3eaed 91%, #c8d7dc 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(55%,#f2f5f6), color-stop(91%,#e3eaed), color-stop(100%,#c8d7dc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f2f5f6 55%,#e3eaed 91%,#c8d7dc 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f2f5f6 55%,#e3eaed 91%,#c8d7dc 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f2f5f6 55%,#e3eaed 91%,#c8d7dc 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f2f5f6 55%,#e3eaed 91%,#c8d7dc 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=0 ); /* IE6-9 */
+}
+
+body.index a.box h3{
+	font-size: 21px;
+	margin: 3px 0 0 10px;
+	color: #369;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-weight: bold;
+}
+
+body.index a.box h3 span{
+	text-decoration: underline;
+}
+
+body.index a.box h3 sup {
+	color: #999;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+sup {
+	vertical-align: super;
+}
+
+body.index a.box h4 {
+	margin: 5px 0 10px;
+	font-size: 14px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	color: #cc0000;
+	font-weight: bold;
+	display: block;
+}
+
+body.index a.box p {
+	color: #222;
+	font-size: 14px;
+	line-height: 1.4em;
+	margin-top: 5px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	display: block;
+}
+
+hr {
+	clear: both;
+	border: 0;
+	background: white url(http://37signals.com/images/img-hr.png) no-repeat scroll 50% 50%;
+	color: transparent;
+	height: 12px;
+}
+
+/*Customers*/
+
+body.index div.customers div.meet {
+	position: absolute;
+	margin-left: -125px;
+	margin-top: 50px;
+}
+
+/*body.index div.customers div.meet {
+	margin: 65px 0 0 -490px;
+}*/
+
+body.index div.customers div.meet img.arrow {
+	position: absolute;
+	left: 120px;
+	top: 65px;
+}
+
+body.index div.customers div.meet img.arrow{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 10px;
+	margin: 0;
+	text-align: center;
+}
+
+body.index div.customers div.meet a.thumbnails {
+	display: block;
+	width: 143px;
+	height: 104px;
+	background: url(http://37signals.com/images/img-customers.png) no-repeat 0 0;
+	text-indent: -1000em;
+}
+
+body.index div.customers div.meet a.thumbnails:hover{
+	background: url(http://37signals.com/images/img-customers.png) no-repeat 0 bottom;
+}
+
+
+a:link, a:visited{
+	color: #369;
+	text-decoration: none;
+}
+
+body.index div.customers div.meet p{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 10px;
+	margin: 0;
+	text-align: center;
+}
+
+h2 {
+	color: #232323;
+	margin: 30px 0;
+	font-size: 48px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 1.1em;
+	letter-spacing: -1px;
+
+}
+
+h2 {
+	display: block;
+	-webkit-margin-before: 0.6em;
+	-webkit-margin-after: 0.6em;
+	-webkit-margin-start: 0em;
+	-webkit-margin-end: 0em;
+}
+
+/*img[Attributes Style] {
+	width: 200px;
+	height: 200px;
+	float: right;
+	vertical-align: top;
+}*/
+
+body.index div.customers p{
+	text-align: left;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.3em;
+	color: #666;
+}
+
+p{
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0em;
+	-webkit-margin-end: 0em;
+}
+
+body.index div.customers img.logos {
+	margin: 10px 0 30px;
+}
+
+/*Mission*/
+
+body.index div.column {
+	width: 380px;
+	float: left;
+	margin-right: 40px;
+}
+
+body.index div.column div.mission {
+	text-align: left;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	line-height: 1.4em;
+	font-size: 12px;
+	overflow: hidden;
+	margin: 20px 0;
+}
+
+body.index div.column div.mission.top {
+	margin-top: 0;
+}
+
+body.index div.column div.mission h3{
+	float: left;
+	font-size: 58px;
+	font-weight: 500;
+	line-height: normal;
+	margin: -10px 14px 0 0;
+	color: #ccc;
+}
+
+body.index div.column div.mission h4 {
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 16px;
+	margin: 5px 0;
+	color: #cc0000;
+	font-weight: bold;
+
+}
+
+body.index div.column div.mission p{
+	margin: 0 0 0 45px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+body.index div.column.two{
+	margin-right: 0;
+}
+
+body.index div.book div.read {
+	position: absolute;
+	margin-left: 790px;
+	margin-top: 50px;
+}
+
+
+body.index div.book div.read img.arrow {
+	position: absolute;
+	top: 70px;
+	right: 120px;
+}
+
+body.index div.book img.arrow {
+	top: 50px;
+}
+
+body.index div.book div.read p{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 10px;
+	margin: 0;
+	text-align: center;
+}
+
+body.index div.book div.quotes {
+	padding-top: 5px;
+}
+
+body.index div.book div.quotes h3{
+	color: #888;
+	font-weight: normal;
+	font-family: "CrimsonRomanItalic", "Times New Roman", Georgia, serif;
+	font-style: italic;
+	font-size: 22px;
+	margin: 35px 0 10px;
+}
+
+body.index div.book div.quotes p{
+	font-family: font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 12px;
+	margin: 0;
+}
